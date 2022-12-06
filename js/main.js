@@ -120,7 +120,7 @@ getNewQuestion = () => {
     if(avialableQestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         // assign to the End Page
-        return window.location.assign('/finish.html');
+        return window.location.assign('./finish.html');
     }
     
     questionCounter++;

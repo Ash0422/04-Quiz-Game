@@ -30,7 +30,9 @@ THEN I can save my initials and my score
 
 ## The Application screenshots:
 ```
-At the end I was able to create an efficient and responsive quiz application using the described process, which displayed questions, a Timer, and a multipale-choices. the player can also enter his initial to save the score before restting and resetarting over.
+At the end I was able to create an efficient and responsive quiz application using the described process, 
+which displayed questions, a Timer, and a multipale-choices. the player can also enter his initial to save
+the score before restting and resetarting over.
 ```
 
 <br>
@@ -46,7 +48,6 @@ At the end I was able to create an efficient and responsive quiz application usi
 
 <img src="./images/Quiz-Game6.png"><br>
 
-<img src="./images/Quiz-Game7.png">
 
 ## The Resources I used:
 
@@ -57,7 +58,11 @@ At the end I was able to create an efficient and responsive quiz application usi
 
 ## Links to the challange
 <br>
-The challange was upload to Github at the following repository:<br>
-- GitHub Repo(https://github.com/Ash0422/04-Quiz-Game)<br>
+The challange was upload to Github at the following repository:
 <br>
-- deployed application: (https://ash0422.github.io/03-Password-Generator/)
+
+GitHub Repo: 
+- https://github.com/Ash0422/04-Quiz-Game
+
+ deployed application: 
+- https://ash0422.github.io/04-Quiz-Game/
