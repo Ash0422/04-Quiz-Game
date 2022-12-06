@@ -7,14 +7,14 @@ const mostRecentScore = localStorage.getItem('mostRecentScore');
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-const MAX_HIGH_SCORES = 5;
+const MAX_HIGH_SCORES = 6;
 
 finalScore.innerText = mostRecentScore;
 // enable save button when name was entred 
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
-//  display 5 scores from the highest to the lowest 
+//  display best scores from the highest to the lowest 
 saveHighScore = (e) => {
     e.preventDefault();
 
@@ -24,7 +24,8 @@ saveHighScore = (e) => {
     };
     highScores.push(score);
     highScores.sort((a, b) => b.score - a.score);
-    highScores.splice(5);
+    highScores.splice(6);
+
 //  local Storage 
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('/');
